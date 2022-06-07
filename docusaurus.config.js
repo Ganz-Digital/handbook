@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Clarity",
-  tagline: "The Ganz Digital Handbook.",
+  title: "Ganz Digital",
+  tagline: "The Handbook",
   url: "https://handbook.ganzdigital.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "Ganz-Digital", // Usually your GitHub org/user name.
-  projectName: "ganz-digital-handbook", // Usually your repo name.
+  projectName: "handbook", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -33,19 +33,16 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: "/", // Serve the docs at the site's root
           sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/Ganz-Digital/handbook/docs",
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl: "https://github.com/Ganz-Digital/handbook/blog",
+        // },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
@@ -57,18 +54,18 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "Ganz Digital Handbook",
         logo: {
-          alt: "My Site Logo",
+          alt: "Ganz Digital",
           src: "img/logo.svg",
         },
         items: [
-          {
-            type: "doc",
-            docId: "Introduction",
-            position: "left",
-            label: "Handbook",
-          },
+          // {
+          //   type: "doc",
+          //   docId: "Introduction",
+          //   position: "left",
+          //   label: "Handbook",
+          // },
           // { to: "/blog", label: "Blog", position: "left" },
           // {
           //   href: "https://github.com/facebook/docusaurus",
