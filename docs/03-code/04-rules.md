@@ -210,3 +210,5 @@ function calculateSalaryTotal() {
   return totalSalary;
 }
 ```
+
+## Export default functions directly.
