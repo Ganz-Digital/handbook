@@ -12,11 +12,9 @@ We manage our projects with Kanban boards. On these boards, there are cards and 
 
 Every card has a user story. A description of what we want to achieve with the task or a description of something that doesn't work as expected.
 
-## Checklists
+## Steps to Completion
 
-After you've received a task, break the user story into a checklist. Trello has a nice feature for this. You can add a checklist to every card.
-
-Every item of the checklist should be approximately 30 minutes of work.
+After you've received a task, break the user story into smaller steps to completion. Sometimes, there is already a checklist called "Steps to Completion" on a Trello card. If it's not there, create it.
 
 Breaking a task down into checklist items makes sure that you understand it and think about how to do it before actually doing it. It also minimizes the risk that you run into unforeseen dead-ends.
 

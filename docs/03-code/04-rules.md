@@ -105,6 +105,8 @@ const employees = sessions.map((s) => s.employeeID);
 
 ### No abbreviations.
 
+You must not use abbreviations. Always write the whole word. Abbreviations increase the cognitive load for the reader and they are often ambiguous.
+
 This counts everywhere apart from iterators.
 
 ```jsx
@@ -212,3 +214,7 @@ function calculateSalaryTotal() {
 ```
 
 ## Export default functions directly.
+
+## Define functions after calling them – if possible.
+
+Humans read code from top to bottom. We structure our code to match this behaviour and make sure that we put the main concepts at the top and the details at the bottom.
